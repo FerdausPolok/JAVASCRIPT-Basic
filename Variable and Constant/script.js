@@ -57,10 +57,7 @@ console.log(con1);
 //const
 //they are js reserved word for js, we can't use them as any variable name or contact
 
-let a;
-let b=a;
-a=90;
-console.log(b)
+
 
 
 
