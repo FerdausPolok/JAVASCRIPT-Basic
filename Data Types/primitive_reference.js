@@ -19,7 +19,7 @@ p1 = 45
 console.log(p1) //doenst change the value with 45
 console.log(p2)
 
-//reference type- deals with reference or address
+//reference type- deals with reference or address -> j kono akta change korle onnotao change hobe
 
 let r1 = [1,2,3]
 let r2= r1 //r2= address of r1
