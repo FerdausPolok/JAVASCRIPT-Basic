@@ -31,7 +31,8 @@ else{
 console.log("End of if statement")
 
 
-var age= prompt();
+//var age= prompt();
+var age = 100
 
 if (age>=50){
     console.log("old!")
