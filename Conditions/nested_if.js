@@ -2,9 +2,13 @@ console.log("Nested If Starts from here")
 
 //find the largest number
 
-var n1 = prompt("Enter first number")
-var n2 = prompt("Enter second number")
-var n3 = prompt("Enter 3rd number")
+// var n1 = prompt("Enter first number")
+// var n2 = prompt("Enter second number")
+// var n3 = prompt("Enter 3rd number")
+
+n1=10
+n2=20
+n3=30
 
 n1= parseInt(n1)
 n2= parseInt(n2)
