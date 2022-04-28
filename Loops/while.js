@@ -27,3 +27,27 @@ do{
 
 } while(false);
 
+//print 1 to 10 using while loop and print the value is 5 if the value is 5
+
+num=1
+console.log(num)
+while(num<=10){
+    if(num==5){
+        console.log("The value is now "+num)
+    }
+    console.log(num)
+    num++
+}
+
+
+//sum of 1 to 10
+
+sum = 0;
+s=1;
+
+while(s<=10){
+    sum+=s
+    s++
+}
+
+console.log(`The sum of 1 to 10 is ${sum}`)
