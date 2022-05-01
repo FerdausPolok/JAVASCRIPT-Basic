@@ -28,3 +28,5 @@ console.log(strr.length) //property of string
 console.log(strr.split(" ")) //method of String
 
 //JS Treats eveythig as an object so that tar kajer shubidha hoy
+
+
