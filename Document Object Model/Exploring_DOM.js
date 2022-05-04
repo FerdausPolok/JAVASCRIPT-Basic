@@ -23,6 +23,10 @@ val = document.forms;
 
 //Links
 val = document.links;
+val = document.links[0];
+
+console.log(val)
+
 
 //images
 val = document.images;
