@@ -16,7 +16,7 @@ try{
 console.log("After Error")
 
 
-//Generating own error message
+//Generating own error and handle that
 
 var a = 19;
 
