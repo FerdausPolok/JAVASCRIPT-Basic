@@ -66,9 +66,9 @@ console.log(result)
 
 //replace- returns new string and replaces
 
-
 str= "Hi World"
 re3= /hi/i
 
 result = str.replace(re3, "Hello") 
 console.log(result)
+
