@@ -48,4 +48,12 @@ linkArray.forEach(function(link){
 });
 
 
+val = document.forms;
+console.log(val)
+
+val = document.forms[0];
+console.log(val)
+
+
+
 
