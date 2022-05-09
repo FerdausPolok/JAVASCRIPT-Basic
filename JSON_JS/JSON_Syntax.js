@@ -6,13 +6,18 @@ var student = { //object
 
 console.log(student)
 
-var student_json = { //json
+var student_json = { //json format but will be treated as object in js
     "name": "Polok",
     "id": "172-15-9924",
     "add": "Dhaka Bangladesh"
 };
 
 console.log(student_json)
+console.log(student_json.name)
+
+var student_json_converted = JSON.stringify(student_json)
+console.log(student_json_converted)
+
 
 //Convertibg obj to JSON Using function
 
