@@ -46,3 +46,4 @@ vall.innerText="JS"
 
 console.log(vall);
 
+console.log("DOM Selector Single Item Ends from here");
