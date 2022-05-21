@@ -1,12 +1,11 @@
+console.log("Exploring ROM Starts from here");
 let val;
 val= this; //indicates full html elements
 val= window //same as this
 val= window.document;
 val= document; //works as same as above line
 val= document.all; //all tags insiale an array HTMLAllCollection- serially
-
 val= document.all[9]; //Array element
-
 val= document.all.length; //length of the array means how many tags we have inside tha doc
 
 //separately accessing
@@ -20,13 +19,17 @@ val = document.contentType;
 
 //Exploring FORMS
 val = document.forms;
+val = document.forms[0];
+val = document.forms[0].method;
+val = document.forms[0].action;
+
 
 //Links
 val = document.links;
-val = document.links[0];
-
-console.log(val)
-
+val = document.links[2];
+val = document.links[0].href;
+val = document.links[0].className;
+val = document.links[0].classList;
 
 //images
 val = document.images;
@@ -37,23 +40,16 @@ val = document.scripts[0];
 val = document.scripts[0].src;
 val = document.scripts[0].getAttribute('src');
 
-console.log(val)
-
-//For each in Link
+//For each in Link aka on which we get array
 links= document.links;
-let linkArray = Array.from(links);
+let linkArray = Array.from(links); //age array te covert kore nite hobe
 
-linkArray.forEach(function(link){
-    console.log(link);
+linkArray.forEach(link =>{
+     console.log(link);
 });
 
 
-val = document.forms;
-console.log(val)
-
-val = document.forms[0];
-console.log(val)
-
+console.log("Exploring ROM Ends from here");
 
 
 
