@@ -46,6 +46,7 @@ let linkArray = Array.from(links); //age array te covert kore nite hobe
 
 linkArray.forEach(link =>{
      console.log(link);
+     //console.log(link.getAttribute('src'));
 });
 
 
